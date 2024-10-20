@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Badminton Club</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background-color: #f3f4f6; /* Light grey background */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        nav {
+            background-color: #4c6869; /* Modern purple */
+            color: #fff;
+            padding: 1em 2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav .logo h1 {
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links li {
+            margin-right: 1.5em;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #a5b4fc; /* Lighter purple for hover effect */
+        }
+
+        .hero-section {
+            background: linear-gradient(rgba(40, 56, 51, 0.808), rgba(57, 55, 109, 0.801)), url('badminton-court.jpg') no-repeat center center/cover;
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            padding: 0 2em;
+        }
+
+        .hero-content h2 {
+            font-size: 3.5em;
+            margin-bottom: 0.5em;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .hero-content p {
+            font-size: 1.3em;
+            margin-bottom: 2em;
+        }
+
+        .cta-btn {
+            background-color: #a5b4fc; /* Light purple button */
+            color: #4f46e5;
+            padding: 0.75em 1.5em;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: 500;
+            border-radius: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-btn:hover {
+            background-color: #fff;
+            color: #4f46e5;
+            border: 2px solid #4f46e5;
+        }
+
+        .about-section, .schedule-section, .contact-section {
+            padding: 4em 2em;
+            background-color: #fff;
+            color: #333;
+            margin: 2em 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .about-section h2, .schedule-section h2, .contact-section h2 {
+            text-align: center;
+            font-size: 2.8em;
+            color: #4f46e5;
+            margin-bottom: 1.5em;
+        }
+
+        .about-section p, .schedule-section ul, .contact-section p {
+            font-size: 1.2em;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        .schedule-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .schedule-section li {
+            font-size: 1.3em;
+            margin-bottom: 1em;
+        }
+
+        .contact-section a {
+            color: #4f46e5;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .contact-section a:hover {
+            color: #a5b4fc;
+        }
+
+        footer {
+            background-color: #4f46e5;
+            color: #fff;
+            padding: 1.5em 0;
+            text-align: center;
+            font-size: 1em;
+            margin-top: 2em;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .hero-content h2 {
+                font-size: 2.5em;
+            }
+
+            .nav-links {
+                flex-direction: column;
+                margin-top: 1em;
+            }
+
+            .nav-links li {
+                margin-bottom: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>RULES TO PLAY BADMINTON</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="C:/Users/Olivi/OneDrive/Desktop/Evelynsmytext.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h2>Welcome to the Badminton Rules</h2>
+            <p>Join us and experience the best badminton training and matches.</p>
+            <a href="https://platform.aklbadminton.com/booking" class="cta-btn">Learn More</a>
+        </div>
+    </section>
+
+    <section>
+        <img width="1350" height="750" src=https://badminton-information.com/images/badminton-court.gif>
+    </section>
+
+     <section id="about" class="about-section">
+            <h2>Badminton Court Rules</h2>
+            <p>A badminton court is a rectangular playing area with specific measurements. It's divided into two halves by a net in the middle. The court has different boundary lines depending on whether you're playing singles or doubles:</p>
+            <br>
+            <p>-Singles court: Narrower, with side lines closer to the center.</p>
+            <p>-Doubles court: Wider, with the outermost side lines used.</p>
+     </section>
+
+     
+     <section id="about" class="about-section">
+        <h2>Key areas of the court include:</h2>
+        <p>-Service courts: Two small boxes on each side of the net where players must serve.</p>
+        <p>-Backcourt: The rear area of each half, used during rallies and for defensive shots.</p>
+        <p>-Net area: Close to the net, good for drop shots and net play.</p>
+     </section>
+
+
+     <section id="schedule" class="schedule-section">
+        <h2>Practice Schedule</h2>
+        <ul>
+            <li>Monday - 5:00 PM to 7:00 PM</li>
+            <li>Wednesday - 6:00 PM to 8:00 PM</li>
+            <li>Friday - 5:00 PM to 7:00 PM</li>
+        </ul>
+     </section>
+
+     <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Contact us at <a href="mailto:info@badmintonclub.com">info@badmintonclub.com</a> or visit our facility.</p>
+     </section>
+
+     <footer>
+        <p>&copy; 2024 Badminton Club. All rights reserved.</p>
+     </footer>
+</body>
+</html>

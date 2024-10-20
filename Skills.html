@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Skills from Badminton</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background-color: #f3f4f6; /* Light grey background */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        nav {
+            background-color: #4f46e5; /* Modern purple */
+            color: #fff;
+            padding: 1em 2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav .logo h1 {
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links li {
+            margin-right: 1.5em;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #a5b4fc; /* Lighter purple for hover effect */
+        }
+
+        .hero-section {
+            background: linear-gradient(rgba(79, 70, 229, 0.7), rgba(79, 70, 229, 0.7)), url('badminton-court.jpg') no-repeat center center/cover;
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            padding: 0 2em;
+        }
+
+        .hero-content h2 {
+            font-size: 3.5em;
+            margin-bottom: 0.5em;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .hero-content p {
+            font-size: 1.3em;
+            margin-bottom: 2em;
+        }
+
+        .cta-btn {
+            background-color: #a5b4fc; /* Light purple button */
+            color: #4f46e5;
+            padding: 0.75em 1.5em;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: 500;
+            border-radius: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-btn:hover {
+            background-color: #fff;
+            color: #4f46e5;
+            border: 2px solid #4f46e5;
+        }
+
+        .about-section, .schedule-section, .contact-section {
+            padding: 4em 2em;
+            background-color: #fff;
+            color: #333;
+            margin: 2em 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .about-section h2, .schedule-section h2, .contact-section h2 {
+            text-align: center;
+            font-size: 2.8em;
+            color: #4f46e5;
+            margin-bottom: 1.5em;
+        }
+
+        .about-section p, .schedule-section ul, .contact-section p {
+            font-size: 1.2em;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        .schedule-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .schedule-section li {
+            font-size: 1.3em;
+            margin-bottom: 1em;
+        }
+
+        .contact-section a {
+            color: #4f46e5;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .contact-section a:hover {
+            color: #a5b4fc;
+        }
+
+        footer {
+            background-color: #4f46e5;
+            color: #fff;
+            padding: 1.5em 0;
+            text-align: center;
+            font-size: 1em;
+            margin-top: 2em;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .hero-content h2 {
+                font-size: 2.5em;
+            }
+
+            .nav-links {
+                flex-direction: column;
+                margin-top: 1em;
+            }
+
+            .nav-links li {
+                margin-bottom: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>SKILLS OF BADMINTON</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="file:///C:/Users/Olivi/OneDrive/Desktop/Evelynsmytext.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h2>History of BADMINTON</h2>
+            <p>Badminton, originally called 'battledore', originated in the mid-1800s in British India and was created by British military officers. Its use of a shuttlecock has remained consistent throughout history.</p>
+            <a href="https://www.bbc.co.uk/bitesize/guides/z37j2p3/revision/1#:~:text=The%20beginnings%20of%20badminton%20can,remained%20constant%20over%20the%20years" class="cta-btn">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>We run for school and have started this website to encourage more beginner players to get confidence to keep playing and improve.</p>
+    </section>
+
+    <section id="schedule" class="schedule-section">
+        <h2>Potential Practice Dates</h2>
+        <ul>
+            <li>Monday - 3:15 PM to 4:30 PM</li>
+            <li>Tuesday - 3:15 PM to 5 PM</li>
+            <li>Wednesday - 3:15 PM to 5 PM</li>
+            <li>Thursday - 3:15 PM to 5 PM</li>
+            <li>Friday - 3:15 PM to 4:30 PM</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <p>*Contact me:* through email at <a href="mailto:info@badmintonclub.com">info@badmintonclub.com</a></p>
+        <p>*Location:* Marist College Auckland, school GYM.</p>
+        <p>Or come to me in person, I am happy to talk most of the time.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2027 Badminton Team. IN IT TO WIN IT.</p>
+    </footer>
+</body>
+</html>
